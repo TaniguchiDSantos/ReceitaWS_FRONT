@@ -1,12 +1,13 @@
 {
-  "name": "receita-ws-front",
+  "name": "angularapp",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --ssl --ssl-cert %APPDATA%\\ASP.NET\\https\\%npm_package_name%.pem --ssl-key %APPDATA%\\ASP.NET\\https\\%npm_package_name%.key --host=127.0.0.1",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "prestart": "node aspnetcore-https"
   },
   "private": true,
   "dependencies": {
@@ -18,15 +19,24 @@
     "@angular/platform-browser": "^16.1.0",
     "@angular/platform-browser-dynamic": "^16.1.0",
     "@angular/router": "^16.1.0",
+    "@ng-bootstrap/ng-bootstrap": "^15.1.0",
+    "bootstrap": "^5.3.0",
+    "bootstrap-icons": "^1.10.5",
+    "jest-editor-support": "*",
+    "jquery": "^3.7.0",
+    "ng-bootstrap": "^1.6.3",
+    "ngx-toastr": "^17.0.2",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.13.0"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^16.1.4",
-    "@angular/cli": "~16.1.4",
+    "@angular-devkit/build-angular": "^16.1.5",
+    "@angular/cli": "~16.1.5",
     "@angular/compiler-cli": "^16.1.0",
     "@types/jasmine": "~4.3.0",
+    "@types/jquery": "^3.5.16",
+    "eslint": "^8.45.0",
     "jasmine-core": "~4.6.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.2.0",

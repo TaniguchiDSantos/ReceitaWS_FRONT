@@ -1,0 +1,12 @@
+{
+    "/api": {
+      "target": "https://receitaws.com.br/",
+      "changeOrigin": true,
+      "secure": false,
+      "pathRewrite": {
+        "/api": ""
+      }
+    }
+  }
+  
+  

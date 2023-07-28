@@ -1,0 +1,24 @@
+<div class="container mt-3">
+    <h2>Consultar CNPJ</h2>
+    <input class="form-control" id="myInput" type="text" placeholder="Pesquisar..." [(ngModel)]="cnpj" (change)="searchCNPJ()">
+    <br>
+    <h3>Recem Visitados</h3>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>CNPJ</th>
+            </tr>
+        </thead>
+        <tbody id="myTable">
+            <tr *ngFor="let item of pedidos; let i = index">
+                  <td width="50" id="alignTdMiddle">
+                    <ngb-highlight
+                      [result]="item.cnpj"
+                      [term]="searchTerm"
+                    >
+                    </ngb-highlight>
+                  </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
