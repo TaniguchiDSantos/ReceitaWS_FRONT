@@ -1,27 +1,69 @@
-# Angularapp
+## Nome do Projeto 
+<h1 align="center">ReceitaWSAPI</h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.5.
+## Descrição do Projeto
+<p align="center">Fazer a autenticação e consumir a api ReceitaWS passando CNPJ como parâmetro</p>
 
-## Development server
+<img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white"/> <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white"/> <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"/> <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/> <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>              
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Status
+<h4 align="center"> 
+  Finalizado
+</h4>
 
-## Code scaffolding
+## Features
+- [x] Autenticação do usuário
+- [x] Consultar dados da receita através do CNPJ
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Demonstração da Aplicação
+<a href="https://www.linkedin.com/feed/update/urn:li:activity:7090829661093380096/">Vídeo da Aplicação</a>
 
-## Build
+## Pré-requisitos
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Angular](https://angular.io/guide/setup-local), [Node.js](https://nodejs.org/en/). 
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 🧭 Rodando a aplicação web (Frontend)
+``bash
+# Clone este repositório
+$ git clone <https://github.com/TaniguchiDSantos/ReceitaWS_FRONT>
 
-## Running unit tests
+# Acesse a pasta do projeto no terminal/cmd
+$ cd ReceitaWS_FRONT
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+# Vá para a pasta server
+$ cd server
 
-## Running end-to-end tests
+# Instale as dependências
+$ npm install
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+# Execute a aplicação em modo de desenvolvimento
+$ ng serve --open
 
-## Further help
+# O servidor inciará na porta:4200 - acesse <https://127.0.0.1:4200/>
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## 🎲 Rodando o Back End (servidor)
+- Acesse o repositório do Back End:
+  [Back-End](https://github.com/TaniguchiDSantos/ReceitaWSAPI)
+
+## 🛠 Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+- [Node.js](https://nodejs.org/en/)
+- [Angular](https://angular.io/)
+- [Bootstrap](https://getbootstrap.com/)
+- [TypeScript](https://www.typescriptlang.org/)
+
+## Autor
+
+<a href="https://www.linkedin.com/in/taniguchi-santos/">
+ <img style="border-radius: 50%;" src="https://media.licdn.com/dms/image/D4D03AQHFMq-JVRgQag/profile-displayphoto-shrink_200_200/0/1688444569138?e=1696464000&v=beta&t=18MhadZ79NeOr7cK3hDAvXgjnLi6bOOGR-NSnod9GUI" width="100px;" alt=""/>
+ <br />
+ <sub><b>Taniguchi Santos</b></sub></a> <a href="https://www.linkedin.com/in/taniguchi-santos/">🚀</a>
+ 
+Feito com ❤️ por Taniguchi Santos 👋🏽 Entre em contato!
+
+## 📝 Licença
+
+Este projeto esta sobe a licença [MIT](./LICENSE).
